@@ -1,8 +1,8 @@
 package br.com.casasbahia.viacep.excecao;
 
-public class tamanhoCepException extends RuntimeException {
-    private String mensagem;
-    public tamanhoCepException(String mensagem) {
+public class TamanhoCepException extends RuntimeException {
+    private final String mensagem;
+    public TamanhoCepException(String mensagem) {
         this.mensagem = mensagem;
     }
 

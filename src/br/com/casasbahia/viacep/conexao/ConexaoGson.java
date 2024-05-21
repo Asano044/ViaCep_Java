@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class ConexaoGson {
     private String json;
-    private Gson gson = new GsonBuilder().setPrettyPrinting().create();;
+    private Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     public ConexaoGson() {
 
